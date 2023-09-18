@@ -1,0 +1,113 @@
+
+
+.screen {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    }
+
+
+#lizard-1 {
+}
+
+#lizard-1:hover, #lizard-2:hover, #ratel-character:hover, #ratel-quadboard:hover {
+    
+}
+
+#lizard-1:hover .screen, #lizard-2:hover .screen, #ratel-character:hover .screen, #ratel-quadboard:hover .screen  {
+    opacity:0.6;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#ratel-title {
+    opacity: 0;
+
+    -webkit-animation: fadeInTitle 5s ease-in forwards;
+    -moz-animation: fadeInTitle 5s ease-in forwards;
+    -o-animation: fadeInTitle 5s ease-in forwards;
+    animation: fadeInTitle 5s ease-in forwards;
+}
+
+#ratel-title path {
+    opacity: 1  ;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#ratel-title:hover path {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#advert {
+    opacity: 0;
+
+    -webkit-animation: fadeInTitle 2s ease-in 5s forwards;
+    -moz-animation: fadeInTitle 2s ease-in 5s forwards;
+    -o-animation: fadeInTitle 2s ease-in 5s forwards;
+    animation: fadeInTitle 2s ease-in 5s forwards;
+}
+
+#advert path {
+    opacity: 0.6  ;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#cover:hover #advert path {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+@-webkit-keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

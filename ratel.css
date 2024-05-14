@@ -222,9 +222,10 @@ progress[value]  {
 .a3-thumbnail {
     width: 220px;
     height: 340px;
-    background-color: black;
     display: block;
     margin: 0 1em 1em 0;
+    padding: 1em;
+    border: solid 1px #ccc;
 }
 
 .comic-title {

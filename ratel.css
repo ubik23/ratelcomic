@@ -36,7 +36,7 @@ h1 {
     background-color: #f60;
     color: white;
     margin: 0;
-    padding: 1em;
+    padding: 1em 0 1em 3em;
     font-family: "Arial Black", Sans-Serif;
     position: relative;
     user-select: none;
@@ -268,6 +268,10 @@ progress[value]  {
     }
     .comic-title {
         background-position: 50% 71%; 
+    }
+
+    h1 {
+        padding: 1em;
     }
 }
 

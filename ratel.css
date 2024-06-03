@@ -127,8 +127,9 @@ h1:before {
 }
 
 button, input[type="submit"], input[type="reset"] {
-	background: none;
-	color: inherit;
+    font-weight:900;
+	background: #f60;
+	color: #000;
 	border: none;
 	padding: 0;
 	font: inherit;
@@ -136,6 +137,11 @@ button, input[type="submit"], input[type="reset"] {
 	outline: inherit;
     padding: 1em;
     border-radius: 1em;
+}
+
+.button:hover {
+    color: white;
+    transition: color 200ms ease-in-out;
 }
 
 .a3-thumbnail {

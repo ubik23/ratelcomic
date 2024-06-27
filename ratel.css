@@ -259,6 +259,12 @@ progress[value]  {
     color: blue; 
   }
 
+.embeded-image {
+    width: 330px; 
+    max-width: 100%;
+    align-self: center;
+}  
+
 @-webkit-keyframes animate-stripes {
     100% { background-position: -100% 0px; }
  }

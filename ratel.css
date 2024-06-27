@@ -260,8 +260,7 @@ progress[value]  {
   }
 
 .embeded-image {
-    width: 330px; 
-    max-width: 100%;
+    flex-grow: 0; 
     align-self: center;
 }  
 

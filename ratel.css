@@ -67,6 +67,15 @@ h1:before {
     padding: 1em 20%;
 }
 
+.menu__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    width: 100%;
+}
+
 .menu__links a {
     flex-grow: 1;
     color: black;
@@ -84,15 +93,6 @@ h1:before {
     display: flex;
     justify-content: center;
     background-color: #f60;
-}
-
-.menu__links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    text-transform: uppercase;
-    width: 100%;
 }
 
 .align-top {
@@ -284,6 +284,11 @@ progress[value]  {
     h1 {
         padding: 1em;
     }
+
+    .menu__links {
+        flex-direction: row;
+    }
+    
 }
 
 /* Larger font size for desktop screens */

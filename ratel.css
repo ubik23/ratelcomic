@@ -64,7 +64,7 @@ h1:before {
     flex-direction: column;
     justify-content: space-around;
     flex-grow: 1;
-    padding: 1em 20%;
+    padding: 1em 15%;
 }
 
 .menu__links {

@@ -67,6 +67,11 @@ h1:before {
     padding: 1em 15%;
 }
 
+.container__vertical img {
+    align-self: center;
+    flex-grow: 0; 
+}
+
 .menu__links {
     display: flex;
     flex-direction: column;

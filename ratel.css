@@ -131,6 +131,13 @@ h1:before {
     background-position: center;
 }
 
+.art__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+}
+
 button, input[type="submit"], input[type="reset"] {
 	background-color: #f60;
 	color: white;

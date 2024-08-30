@@ -104,6 +104,11 @@ h1:before {
     justify-content: flex-start;
 }
 
+#mc_embed_signup_scroll input {
+    margin: 1em 0 0 0;
+    font-size: 1.5rem;
+}
+
 .row__product {
     width: 100%;
     display: flex;

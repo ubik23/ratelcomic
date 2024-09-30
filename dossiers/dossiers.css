@@ -1,0 +1,100 @@
+
+body {
+    background-color: #000;
+    padding: 1em;
+    font-family:'Courier New';
+}
+
+.cardback-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+.thumbnail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+    margin: 0 1em 1em 0;
+}
+
+.char-thumb {
+    border: solid 3px #fff;
+    width: 150px;
+    height: 225px;
+    background-color: #000;
+}
+
+.folder-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    min-height: 512px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: beige;
+    display: inline-block;
+    padding: 0.25em 0.5em 0 0.5em;
+    margin: 0;
+    font-family:'Verdana';
+    border-radius: 1em 1em 0 0;
+    min-width: 10em;
+}
+
+.tab-container {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    height: 100%;
+}
+
+.tab-curve {
+    display: inline-block;
+    background-color: beige;
+    width: 3em;
+    height: 3em;
+    margin: 0;
+}
+
+.tab-negative {
+    display: inline-block;
+    background-color: #000;
+    border-radius: 0 0 0 1em;
+    width: 3em;
+    height: 3em;
+    margin: 0;
+}
+
+.file-bg {
+    background-color: beige;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    border-radius: 0 1em 1em 1em;
+    height: 100%;
+}
+
+.portrait {
+    margin: 1em;
+    width: 220px;
+    height: 330px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.file-content {
+    width: 100%;
+    margin: 1em;
+}
+
+hr {
+    color: red;
+}

@@ -3,7 +3,13 @@ body {
     background-color: #000;
     padding: 1em;
     font-family:'Courier New';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .cardback-container {
     display: flex;
@@ -11,7 +17,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 1em auto 0 auto;
 }
 
 

@@ -151,7 +151,7 @@ button, input[type="submit"], input[type="reset"] {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-    padding: 1em;
+    padding: 0.25em 1em;
     border-radius: 50px;
     font-weight: 900;
 }

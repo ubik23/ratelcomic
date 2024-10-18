@@ -154,6 +154,7 @@ button, input[type="submit"], input[type="reset"] {
     padding: 0.25em 1em;
     border-radius: 50px;
     font-weight: 900;
+    margin-bottom: 1em;
 }
 
 .button:hover {

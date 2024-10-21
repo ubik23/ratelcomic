@@ -113,6 +113,7 @@ h1 {
     height: 330px;
     background-color: #fff;
     box-sizing: border-box;
+    max-width: 33vw;
 }
 
 .file-content {

@@ -67,11 +67,8 @@ body {
 h1 {
     text-transform: uppercase;
     display: inline-block;
-    
     margin: 0;
     font-family:'Verdana';
-    
-    min-width: 10em;
 }
 
 .tab-container {
@@ -84,7 +81,7 @@ h1 {
 .tab-content {
     display: flex;
     flex-direction: column;
-    padding: 0.25em 0.5em 0 0.5em;
+    padding: 0.25em 1em 0 1em;
     border-radius: 1em 1em 0 0;
     background-color: beige;
 }
@@ -115,13 +112,25 @@ h1 {
     height: 100%;
 }
 
-.portrait {
+.portrait-container {
     margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.portrait {
     width: 220px;
     height: auto;
     background-color: #fff;
     box-sizing: border-box;
     max-width: 25vw;
+}
+
+.badge {
+    width: 220px;
+    height: 110px;
+    background-color: #000;
 }
 
 .file-content {

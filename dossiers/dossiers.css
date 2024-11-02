@@ -143,7 +143,13 @@ hr {
 
 .classified span {
     display: none;
-  }
+}
+
 .classified:after {
 content: 'CLASSIFIED';
+}
+
+.censored {
+    color: transparent;
+    background-color: black;
 }

@@ -43,7 +43,12 @@ body {
     margin: 0 1em 1em 0;
 }
 
+.thumbnail-container a {
+    margin-bottom: 0.25em;
+}
+
 .char-thumb {
+    display: block;
     border: solid 3px #fff;
     width: 150px;
     height: 225px;

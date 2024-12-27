@@ -57,10 +57,11 @@ body {
     transition: opacity 0.5s ease-in-out;
 }
 
-.char-thumb:hover {
+.char-thumb:hover, .thumbnail-container a:focus .char-thumb {
     opacity: 1;
     transition: opacity 0.125s ease-in-out;
 }
+
 
 .bad {
     border-color: red;

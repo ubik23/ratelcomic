@@ -153,3 +153,15 @@ content: 'CLASSIFIED';
     color: transparent;
     background-color: black;
 }
+
+a.secret {
+    color: currentColor;
+    text-decoration: none;
+    cursor: text;
+}
+
+.pix {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}

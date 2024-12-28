@@ -54,7 +54,7 @@ body {
     height: 225px;
     background-color: #000;
     opacity: 0.6;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 2s ease-in-out;
 }
 
 .char-thumb:hover, .thumbnail-container a:focus .char-thumb {

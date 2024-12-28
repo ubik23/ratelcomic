@@ -115,6 +115,7 @@ h1:before {
     flex-direction: row;   
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .row__bar {

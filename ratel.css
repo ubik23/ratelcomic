@@ -87,7 +87,7 @@ h1:before {
 
 .menu__links a {
     flex-grow: 1;
-    color: black;
+    color: #999;
     padding: 1em;
     display: flex;
     justify-content: center;

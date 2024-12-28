@@ -104,6 +104,18 @@ h1:before {
     justify-content: flex-start;
 }
 
+.drone-hover {
+    animation-name: quadboard-hover;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes quadboard-hover {
+    from {transform: translateY(0);}
+    to {transform: translateY(-20px);}
+}
+
 #mce-EMAIL {
     margin: 1em 0 0 0;
     font-size: 1.5rem;

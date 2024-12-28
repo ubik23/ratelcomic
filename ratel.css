@@ -88,7 +88,7 @@ h1:before {
 .menu__links a {
     flex-grow: 1;
     color: #999;
-    padding: 1em;
+    padding: 0.75em;
     display: flex;
     justify-content: center;
     background-color: white;
@@ -97,11 +97,7 @@ h1:before {
     transition: background-color 0.5s ease-in-out;
 }
 .menu__links a:hover{
-    flex-grow: 1;
     color: white;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
     background-color: #f60;
     transition: background-color 0.25s ease-in-out;
 }
@@ -189,15 +185,16 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 footer {
+    font-size: 0.8rem;
     width: 100%;
     background-color: #f60;
     color: white;
     align-self: flex-end;
     display: flex;
     justify-content: center;
-    padding: 1em;
+    padding: 0.5em;
     border-bottom: #b02e0e solid;
-    border-top: #ffa700 solid;
+    border-top: #f70 solid;
 }
 
 progress[value] {

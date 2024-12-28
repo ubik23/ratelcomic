@@ -96,7 +96,7 @@ h1:before {
     user-select: none;
     transition: background-color 0.5s ease-in-out;
 }
-.menu__links a:hover{
+.menu__links a:hover, .menu__links a:focus {
     color: white;
     background-color: #f60;
     transition: background-color 0.25s ease-in-out;

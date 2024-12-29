@@ -202,6 +202,23 @@ footer {
     padding: 0.5em;
     border-bottom: #b02e0e solid;
     border-top: #f70 solid;
+    position: relative;
+}
+
+.peek {
+    position: absolute;
+    bottom: -220px;
+    right: 0;
+    animation-name: peek-a-boo;
+    animation-duration: 5s;
+    animation-delay: 210s;
+}
+
+@keyframes peek-a-boo {
+    0% {transform: translateY(0);}
+    25% {transform: translateY(-150px);}
+    75% {transform: translateY(-150px);}
+    100% {transform: translateY(0);}
 }
 
 progress[value] {

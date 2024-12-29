@@ -19,6 +19,7 @@ body {
     justify-content: flex-start;
     font-family: "Helvetica", Sans-Serif;
     font-size: 14px;
+    overflow: hidden;
 }
 
 a, strong {
@@ -203,6 +204,7 @@ footer {
     border-bottom: #b02e0e solid;
     border-top: #f70 solid;
     position: relative;
+    overflow: hidden;
 }
 
 .peek {

@@ -161,7 +161,7 @@ h1:before {
 }
 
 .art__wrapper a {
-    margin: 0 1em 1em 0;
+    margin: 0 1em 1em 0;   
 }
 
 button, input[type="submit"], input[type="reset"] {
@@ -216,8 +216,8 @@ footer {
 
 @keyframes peek-a-boo {
     0% {transform: translateY(0);}
-    25% {transform: translateY(-150px);}
-    75% {transform: translateY(-150px);}
+    25% {transform: translateY(-155px);}
+    75% {transform: translateY(-155px);}
     100% {transform: translateY(0);}
 }
 

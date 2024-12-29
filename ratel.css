@@ -20,6 +20,7 @@ body {
     font-family: "Helvetica", Sans-Serif;
     font-size: 14px;
     overflow: hidden;
+    position: relative;
 }
 
 a, strong {
@@ -203,14 +204,12 @@ footer {
     padding: 0.5em;
     border-bottom: #b02e0e solid;
     border-top: #f70 solid;
-    position: relative;
-    overflow: hidden;
 }
 
 .peek {
     position: absolute;
     bottom: -220px;
-    right: 0;
+    right: 25px;
     animation-name: peek-a-boo;
     animation-duration: 5s;
     animation-delay: 210s;

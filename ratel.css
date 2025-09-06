@@ -145,12 +145,20 @@ h1:before {
     width: 100%;
     display: flex;
     flex-grow: 1;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-image: url("images/dbl-pg-splash-photo.jpg");
     background-size: cover;
     background-position: center;
+    padding: 3rem;
+}
+
+.featured__link {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .art__wrapper {

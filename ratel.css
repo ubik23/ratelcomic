@@ -157,8 +157,25 @@ h1:before {
 .featured__link {
     background-color: #fff;
     border-radius: 2rem;
-    padding: 1rem;
+    height: 4rem;
+    padding: 0 1rem;
     margin-bottom: 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.featured__link img {
+    height: 3rem;
+}
+
+.featured__fmc {
+    color: #ff9908;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .art__wrapper {

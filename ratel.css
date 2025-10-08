@@ -151,7 +151,7 @@ h1:before {
     background-image: url("images/dbl-pg-splash-photo.jpg");
     background-size: cover;
     background-position: center;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .featured__link {
@@ -169,16 +169,19 @@ h1:before {
 }
 
 .featured__link img {
-    height: 3rem;
+    height: 3em;
     max-height: 100%;
 }
 
 .featured__fmc {
     color: #ff9908;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.featured__geyser img {
+    height: 2rem;
+}
 .art__wrapper {
     display: flex;
     flex-direction: column;

@@ -159,7 +159,7 @@ h1:before {
     border-radius: 2rem;
     height: 4rem;
     padding: 0 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     overflow: hidden;
     display: flex;
     justify-content: flex-start;
